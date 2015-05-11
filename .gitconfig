@@ -1,0 +1,29 @@
+
+[color]
+	ui = true
+
+[push]
+	default = tracking
+
+[alias]
+	fe = fetch
+	pl = pull
+	ps = push
+	st = status
+	br = branch
+	co = checkout
+	ci = commit
+	sh = stash
+	di = diff
+	dica = diff --cached
+	new = log --branches --not --remotes
+
+[mergetool]
+	cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	prompt = false
+	trustExitCode = false
+
+[merge]
+	tool = p4merge
+	prompt = false
+
