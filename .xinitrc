@@ -17,6 +17,8 @@ xrdb -m ~/.Xresources
 # default background programs
 parcellite &
 wicd-client &
+python dropbox.py start &
+xscreensaver -no-splash &
 
 # start i3
 exec ssh-agent i3
