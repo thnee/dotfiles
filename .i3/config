@@ -151,3 +151,11 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+new_window pixel
+new_float normal
+
+hide_edge_borders both
+
+client.focused #1F6887 #1F6887 #e5e5e5
+
