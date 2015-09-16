@@ -12,8 +12,11 @@
 	fe = fetch
 	pl = pull
 	ps = push
+	me = merge
 	st = status
+	s = status
 	br = branch
+	b = branch
 	co = checkout
 	ci = commit
 	sh = stash
