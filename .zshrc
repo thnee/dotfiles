@@ -54,6 +54,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
 
 source $ZSH/oh-my-zsh.sh
 
+bindkey "^[Oc" forward-word   # control + right arrow
+bindkey "^[Od" backward-word  # control + left arrow
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
