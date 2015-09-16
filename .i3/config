@@ -152,10 +152,23 @@ bar {
         status_command i3status
 }
 
+#####################
+# My additional stuff
+
+# window borders
 new_window pixel
 new_float normal
-
 hide_edge_borders both
-
 client.focused #1F6887 #1F6887 #e5e5e5
+
+# top row icon keys
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 1 +1%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 1 -1%
+bindsym XF86AudioMute exec --no-startup-id pactl -- set-sink-mute 1 toggle
+bindsym XF86AudioMicMute exec --no-startup-id pactl -- set-source-mute 2 toggle
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20%
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20% 
+bindsym XF86MyComputer exec xscreensaver-command -lock
+bindsym XF86Search exec screenshot_full
+bindsym Mod4+XF86Search exec screenshot_region
 
