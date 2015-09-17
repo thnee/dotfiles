@@ -14,6 +14,9 @@ xinput set-prop "PS/2 Synaptics TouchPad" "Device Accel Constant Deceleration" 0
 # load configs
 xrdb -m ~/.Xresources
 
+# set wallpaper
+feh --bg-scale ~/docs/hex.jpg
+
 # default background programs
 parcellite &
 wicd-client &
