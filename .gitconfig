@@ -35,3 +35,6 @@
 	tool = p4merge
 	prompt = false
 
+[user]
+	email = (none)
+
