@@ -186,6 +186,13 @@ new_window pixel
 new_float normal
 hide_edge_borders both
 
+# window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+colon move right
+
+
 # top row icon keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 1 +1%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 1 -1%
