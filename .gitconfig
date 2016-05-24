@@ -18,9 +18,11 @@
 	s = status
 	br = branch
 	b = branch
+	rb = rebase
 	co = checkout
 	ci = commit
 	sh = stash
+	cp = cherry-pick
 	lg = log
 	di = diff
 	dica = diff --cached
