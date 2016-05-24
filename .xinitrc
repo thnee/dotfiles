@@ -19,7 +19,7 @@ feh --bg-scale ~/docs/hex.jpg
 
 # default background programs
 parcellite &
-wicd-client &
+nm-applet &
 python dropbox.py start &
 xscreensaver -no-splash &
 
