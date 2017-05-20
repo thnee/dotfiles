@@ -10,6 +10,8 @@
 	default = tracking
 
 [alias]
+	cl = clone
+	sm = submodule
 	fe = fetch
 	pl = pull
 	ps = push
