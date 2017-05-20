@@ -40,5 +40,5 @@
 	prompt = false
 
 [user]
-	email = (none)
+	useConfigOnly = true
 
