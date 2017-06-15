@@ -5,6 +5,7 @@ ZSH_THEME="thnee"
 
 ZSH_CUSTOM=~/.oh-my-zsh-custom/
 
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
