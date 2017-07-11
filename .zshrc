@@ -5,7 +5,10 @@ ZSH_THEME="thnee"
 
 ZSH_CUSTOM=~/.oh-my-zsh-custom/
 
-plugins=(git)
+PLUGINS_FILE=~/.oh-my-zsh-plugins
+if [[ -f $PLUGINS_FILE ]]; then
+    plugins=($(cat $PLUGINS_FILE))
+fi
 
 DISABLE_AUTO_UPDATE="true"
 
