@@ -13,7 +13,7 @@ URxvt.iso14755:    false
 URxvt.iso14755_52: false
 
 ! matcher settings for clickable urls
-URxvt.url-launcher: google-chrome
+URxvt.url-launcher: firefox
 URxvt.matcher.button: 1
 
 ! scrolling settings
