@@ -10,16 +10,22 @@
 	default = tracking
 
 [alias]
+	log = log --stat
 	cl = clone
 	sm = submodule
 	fe = fetch
+	f = fetch
 	pl = pull
 	ps = push
 	me = merge
+	m = merge
+	a = add
 	st = status
 	s = status
 	br = branch
 	b = branch
+	rs = reset
+	r = reset
 	rt = remote
 	rb = rebase
 	co = checkout
@@ -27,6 +33,7 @@
 	sh = stash
 	cp = cherry-pick
 	lg = log
+	l = log
 	di = diff
 	dica = diff --cached
 	new = log --branches --not --remotes
