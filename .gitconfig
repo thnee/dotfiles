@@ -16,10 +16,12 @@
 	sm = submodule
 	fe = fetch
 	f = fetch
+	fu = fetch upstream
 	pl = pull
 	ps = push
 	me = merge
 	m = merge
+	mu = merge upstream/master
 	a = add
 	st = status
 	s = status
