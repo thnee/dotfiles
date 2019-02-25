@@ -6,7 +6,6 @@ Dotfiles used on Unix-like operating systems such as Debian and FreeBSD.
 
 ## Initialize
 
-
 #### Git
 
 Get onto master without checking anything out or overwriting any local files.
