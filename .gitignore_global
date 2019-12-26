@@ -1,4 +1,5 @@
 .idea/
 .ackrc
 .python-version
-
+.autoenv.zsh
+.autoenv_leave.zsh

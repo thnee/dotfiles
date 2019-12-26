@@ -4,3 +4,6 @@
 [submodule ".config/base16-shell"]
 	path = .config/base16-shell
 	url = git@github.com:chriskempson/base16-shell.git
+[submodule ".zsh-autoenv"]
+	path = .zsh-autoenv
+	url = https://github.com/Tarrasch/zsh-autoenv
