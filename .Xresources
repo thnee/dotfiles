@@ -1,6 +1,5 @@
-
 URxvt.loginShell: true
-URxvt.perl-ext-common: default,matcher,font-size
+URxvt.perl-ext-common: default,matcher,font-size,confirm-paste
 
 ! keybindings for font-size
 URxvt.keysym.C-Up:     perl:font-size:increase
