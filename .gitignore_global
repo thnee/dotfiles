@@ -3,3 +3,4 @@
 .python-version
 .autoenv.zsh
 .autoenv_leave.zsh
+.tool-versions
