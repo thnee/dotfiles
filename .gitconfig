@@ -3,11 +3,15 @@
 	excludesfile = ~/.gitignore_global
 	pager = less -F -X
 
-[color]
-	ui = true
-
 [push]
 	default = tracking
+
+[user]
+	useConfigOnly = true
+	signingkey = null
+
+[commit]
+	gpgsign = true
 
 [alias]
 	log = log --stat
@@ -40,6 +44,9 @@
 	dica = diff --cached
 	new = log --branches --not --remotes
 
+[color]
+	ui = true
+
 [mergetool]
 	cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
 	prompt = false
@@ -49,12 +56,21 @@
 	tool = p4merge
 	prompt = false
 
-[user]
-	useConfigOnly = true
-	signingkey = null
-
-[commit]
-	gpgsign = true
+[diff]
+	tool = xxdiff
 
 [cola]
 	spellcheck = false
+	theme = flat-dark-grey
+	icontheme = dark
+	boldheaders = false
+	textwidth = 88
+	autoloadcommittemplate = false
+	showpath = true
+	fontdiff = Monospace,10,-1,5,50,0,0,0,0,0
+	blameviewer = git gui blame
+	hidpi = disable
+
+[gui]
+	editor = gvim
+	historybrowser = gitk
