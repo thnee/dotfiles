@@ -21,8 +21,8 @@ URxvt.scrollBar: false
 URxvt.scrollTtyOutput:   false
 URxvt.scrollWithBuffer:  true
 URxvt.scrollTtyKeypress: true
-URxvt.keysym.Shift-Up: command:\033]720;1\007
-URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.C-Page_Up: command:\033]720;1\007
+URxvt.keysym.C-Page_Down: command:\033]721;1\007
 
 ! font settings
 URxvt.font:     xft:DejaVu Sans Mono:pixelsize=13:antialias=true:hinting=true
