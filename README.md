@@ -8,13 +8,14 @@ Dotfiles used on Unix-like operating systems such as Debian and FreeBSD.
 
 #### Git
 
-Get onto master without checking anything out or overwriting any local files.
+Get onto main without checking anything out or overwriting any local files.
 
-```
-$ git init .
-$ git remote add origin git@github.com:thnee/dotfiles.git
-$ git fetch origin
-$ git reset --mixed origin/master
+```shell
+git init -b main
+git remote add origin git@github.com:thnee/dotfiles.git
+git fetch
+git reset origin/main
+git branch -u origin/main main
 ```
 
 #### Xrdb
