@@ -18,8 +18,15 @@ git reset origin/main
 git branch -u origin/main main
 ```
 
+Checkout files and submodules.
+
+```shell
+git checkout .
+git submodule update --init --recursive
+```
+
 #### Xrdb
 
-```
-$ xrdb -m .Xresources
+```shell
+xrdb -m .Xresources
 ```
