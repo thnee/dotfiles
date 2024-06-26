@@ -8,3 +8,5 @@ jsconfig.json
 
 .autoenv.zsh
 .autoenv_leave.zsh
+
+.mise.local.toml
