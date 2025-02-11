@@ -49,6 +49,8 @@
 	di = diff
 	dica = diff --cached
 	new = log --branches --not --remotes
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
 [color]
 	ui = true
